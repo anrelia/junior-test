@@ -1,0 +1,65 @@
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: geometricPrecision;
+}
+
+h1, p, td, tr, td, th, button, mat-cell, mat-header-cell {
+  font-family: 'Work Sans', sans-serif;
+}
+
+td {
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.h1, h1 {
+  font-size: 64px;
+  font-weight: 900;
+  text-align: center;
+}
+
+.h2, h2 {
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.h4, h4 {
+  font-size: 22px;
+  font-weight: bold;
+  color: #333333;
+}
+
+p {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  text-align: center;
+}
+
+tr {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #e5e5e5;
+  display: flex;
+}
+
+button {
+  background-color: #076cdb;
+  color: #fff;
+  border: 1px solid transparent;
+  font-size: 15px;
+  font-weight: 400;
+  padding: 0 15px;
+  border-radius: 3px;
+  width: 150px;
+  height: 30px;
+}
+
+span {
+  font-size: 16px;
+  font-weight: normal;
+  color: #000000;
+}
+
